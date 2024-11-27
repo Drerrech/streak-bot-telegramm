@@ -2,7 +2,7 @@ import telebot, time
 import user_manager
 
 # instantiate the bot
-bot = telebot.TeleBot('7101327062:AAEvtuszotRYX88OyPiTlsD0ljvT9DeMlZw')
+bot = telebot.TeleBot('YOUR_TOKEN')
 
 # Handle the '/start' command
 @bot.message_handler(commands=['start', 'save', 'load'])
